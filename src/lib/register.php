@@ -3,7 +3,7 @@
 
     $username = $_REQUEST['username'];
     $pwd  = $_REQUEST['password'];
-    $sql = "insert into user(`user_name`,`user_email`,`user_pwd`,`user_sex`)values('$username','$pwd','null',0)";
+    $sql = "insert into user(`user_name`,`user_pwd`,`user_email`,`user_sex`)values('$username','$pwd','null',0)";
   
     $res = $mysqli->query($sql);
   

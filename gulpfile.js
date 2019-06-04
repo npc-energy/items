@@ -46,16 +46,16 @@ gulp.task('imgmin', () => {
 });
 
 // 5. 合并压缩js文件
-// gulp.task('js', () => {
-//     //合并文件时需要注意先后顺序
-//     //先后顺序和依赖有关
-//     return gulp.src('/src/js/*.js')
-//         .pipe(concat('all.js'))
-//         .pipe(gulp.dest('dist/js'))
-//         .pipe(rename('all.min.js'))
-//         .pipe(uglify())
-//         .pipe(gulp.dest('dist/js'));
-// });
+gulp.task('js', () => {
+    //合并文件时需要注意先后顺序
+    //先后顺序和依赖有关
+    return gulp.src('/src/js/*.js')
+        .pipe(concat('all.js'))
+        .pipe(gulp.dest('dist/js'))
+        .pipe(rename('all.min.js'))
+        .pipe(uglify())
+        .pipe(gulp.dest('dist/js'));
+});
 
 // gulp.task('less', () => {
 //     return gulp.src('src/css/*.less')
