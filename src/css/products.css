@@ -1,0 +1,786 @@
+.area {
+  width: 1200px;
+  margin: 0 auto;
+}
+main {
+  margin-bottom: 45px;
+}
+main .pos {
+  height: 38px;
+  line-height: 38px;
+  text-align: left;
+  font-family: "\5B8B\4F53";
+}
+main .pos i {
+  width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+main a {
+  color: #666;
+}
+main .detailpic {
+  width: 400px;
+  float: left;
+}
+main .detailpic_big {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  border: 1px solid #e5e5e5;
+  font-size: 0;
+  line-height: 400px;
+  overflow: hidden;
+  background: url(../image/loading.gif) no-repeat center center;
+}
+main .detailpic_big img,
+main .detailpic_big .small {
+  vertical-align: middle;
+  max-width: 400px;
+  max-height: 400px;
+}
+main .big {
+  width: 400px;
+  height: 400px;
+  border: 1px solid #ccc;
+  position: absolute;
+  margin-left: -53px;
+  overflow: hidden;
+  z-index: 100;
+  display: none;
+}
+main .bigpic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 800px;
+  height: 800px;
+}
+main .bigpic img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 800px;
+  height: 800px;
+}
+main .movebox {
+  /* width        : 120px;
+        height          : 120px; */
+  background-color: rgba(255, 255, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  display: none;
+}
+main .show {
+  display: block;
+}
+main .hide {
+  display: none;
+}
+main ul {
+  margin-top: 16px;
+  width: 400px;
+  overflow: hidden;
+}
+main ul li.imgst {
+  border: 1px solid red !important;
+}
+main ul li {
+  margin-right: 4px;
+  float: left;
+  border: 1px solid #e5e5e5;
+  overflow: hidden;
+  font-size: 0;
+}
+main ul li a {
+  max-width: 58px;
+  max-height: 58px;
+  width: 58px;
+  height: 58px;
+  overflow: hidden;
+  background-color: rgba(206, 206, 206, 0.3);
+  display: block;
+  position: relative;
+  z-index: 3;
+}
+main ul li a img {
+  max-width: 58px;
+  max-height: 58px;
+  font-size: 0px;
+}
+main .panelc {
+  width: 400px;
+  margin-top: 20px;
+  text-align: left;
+}
+main .panelc div {
+  float: left;
+  margin-right: 20px;
+  line-height: 16px;
+  padding-bottom: 6px;
+}
+main .panelc div:hover a {
+  color: #e02f2f;
+}
+main .panelc i {
+  background: url(../image/p_spirit1.png) no-repeat;
+  width: 16px;
+  height: 14px;
+  overflow: hidden;
+  float: left;
+}
+main .panelc .sc i {
+  background-position: 0 -192px;
+}
+main .panelc .sc:hover i {
+  background-position: -16px -192px;
+}
+main .panelc .fx {
+  position: relative;
+}
+main .panelc .fx a:nth-child(1) i {
+  background-position: -32px -192px;
+}
+main .panelc .fx ol {
+  display: none;
+  position: absolute;
+  z-index: 20;
+  top: 20px;
+  width: 80px;
+  border: 1px solid #e02f2f;
+  background-color: #fff;
+}
+main .panelc .fx ol li {
+  width: 80px;
+  height: 30px;
+  text-align: left;
+  line-height: 24px;
+}
+main .panelc .fx ol li i {
+  background: url(../image/p_spirit1.png) no-repeat;
+  width: 20px;
+  height: 24px;
+  overflow: hidden;
+  float: left;
+  margin: 0 5px;
+}
+main .panelc .fx ol li:hover p {
+  color: #e02f2f;
+  cursor: pointer;
+}
+main .panelc .fx ol .weibo {
+  background-position: -60px -205px;
+}
+main .panelc .fx ol .t {
+  background-position: -80px -205px;
+}
+main .panelc .fx ol .renren {
+  background-position: -40px -205px;
+}
+main .panelc .fx ol .qzone {
+  background-position: -20px -205px;
+}
+main .panelc .fx:hover a i:nth-child(1) {
+  background-position: -48px -192px;
+}
+main .panelc .fx:hover ol {
+  display: block;
+}
+main .panelc .jb i {
+  background-position: -64px -192px;
+}
+main .panelc .jb:hover i {
+  background-position: -80px -192px;
+}
+main .detailmeta {
+  width: 745px;
+  text-align: left;
+  margin-left: 53px;
+  display: inline-block;
+}
+main .detailmeta .product_title {
+  width: 512px;
+  margin-left: -18px;
+  display: inline-block;
+}
+main .detailmeta .product_title h1 {
+  font: 700 16px/24px "\5FAE\8F6F\96C5\9ED1";
+  color: #333;
+  margin: -3px 0 1px 0;
+  position: relative;
+}
+main .detailmeta .product_info {
+  width: 512px;
+  margin: 11px 0 0;
+  display: inline-block;
+}
+main .detailmeta .product_info .product_price {
+  background: #fff6eb;
+  padding: 12px 18px 9px;
+  margin: 0 -18px 10px -18px;
+}
+main .detailmeta .product_info .product_price .nprice {
+  font-size: 26px;
+  margin-left: 3px;
+  font-weight: bold;
+}
+main .detailmeta .product_info .red {
+  color: #ec1611;
+  font: 700 18px/30px "\5FAE\8F6F\96C5\9ED1";
+}
+main .detailmeta .product_info del {
+  font-family: "\5FAE\8F6F\96C5\9ED1";
+  vertical-align: 2px;
+}
+main .detailmeta .product_info .phone_buy {
+  display: inline-block;
+  margin-left: 20px;
+}
+main .detailmeta .product_info .phone_buy i {
+  background: url(../image/p_spirit1.png) no-repeat -89px -284px;
+  width: 20px;
+  height: 24px;
+  overflow: hidden;
+  float: left;
+}
+main .detailmeta .product_info .jifen {
+  margin-bottom: 2px;
+  line-height: 30px;
+}
+main .detailmeta .product_info .jifen span:nth-child(1) {
+  width: 44px;
+  height: 18px;
+  display: inline-block;
+  background: #ff8a00;
+  border-radius: 3px;
+  line-height: 17px;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+  margin-right: 15px;
+}
+main .detailmeta .product_info .jifen span:nth-child(2) {
+  position: relative;
+  z-index: 6;
+  margin-right: 15px;
+  color: #666;
+}
+main .detailmeta .product_info .jifen span:nth-child(3) {
+  position: relative;
+  z-index: 6;
+  margin-right: 15px;
+  color: #666;
+}
+main .detailmeta .product_info .icon {
+  width: 46px;
+  height: 18px;
+  line-height: 18px;
+  color: #fff;
+  text-align: center;
+  padding-right: 3px;
+  background: url(../image/new1.png) no-repeat 0 0;
+  margin: 3px 8px 0 0;
+  float: left;
+}
+main .detailmeta .product_info .adress {
+  font-family: "\5B8B\4F53";
+  line-height: 26px;
+  color: #666;
+  padding-bottom: 10px;
+}
+main .detailmeta .product_info .service {
+  font-family: "\5B8B\4F53";
+  line-height: 26px;
+  color: #666;
+  padding-bottom: 10px;
+}
+main .detailmeta .product_info .service .i24 {
+  width: 16px;
+  height: 16px;
+  float: left;
+  margin: 4px 5px 0 0;
+  background: #ec1813;
+  color: #fff;
+  font-size: 13px;
+  border-radius: 3px;
+  text-align: center;
+  line-height: 17px;
+}
+main .detailmeta .product_info .color {
+  font-family: "\5B8B\4F53";
+  line-height: 26px;
+  color: #666;
+  padding-bottom: 10px;
+  overflow: hidden;
+}
+main .detailmeta .product_info .color .pic {
+  width: 31px;
+  height: 31px;
+  float: left;
+  padding-bottom: 10px;
+}
+main .detailmeta .product_info .color .pic img {
+  width: 31px;
+  height: 31px;
+}
+main .detailmeta .product_info .size {
+  font-family: "\5B8B\4F53";
+  line-height: 26px;
+  color: #666;
+  padding-bottom: 10px;
+}
+main .detailmeta .product_info .size ul {
+  margin-top: 0px;
+}
+main .detailmeta .product_info .size ul li {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #ccc;
+  float: left;
+  margin: 0 6px 6px 0;
+  overflow: hidden;
+  font-family: arial;
+  line-height: 24px;
+  text-align: center;
+  font-size: 14px;
+}
+main .detailmeta .product_info .num {
+  font-family: "\5B8B\4F53";
+  line-height: 26px;
+  color: #666;
+  padding-bottom: 10px;
+  overflow: hidden;
+}
+main .detailmeta .product_info .num p {
+  border: 1px solid #ccc;
+  float: left;
+  margin-right: 10px;
+  background: #fff;
+}
+main .detailmeta .product_info .num p i:nth-child(1) {
+  background-position: -1px -179px;
+}
+main .detailmeta .product_info .num input {
+  float: left;
+  border-width: 0 1px;
+  font-family: arial;
+  border-color: #ccc;
+  border-style: solid;
+  width: 38px;
+  height: 18px;
+  background: #fff;
+  padding: 5px;
+  text-align: center;
+}
+main .detailmeta .product_info .num p i {
+  width: 26px;
+  height: 28px;
+  float: left;
+  text-align: center;
+  cursor: pointer;
+  font: 700 18px/26px "\5FAE\8F6F\96C5\9ED1";
+  background: url(../image/p_spirit6.png) no-repeat -1px -240px;
+}
+main .detailmeta .product_info .num .kucun i {
+  font-size: 13 px;
+}
+main .detailmeta .product_info .submit input {
+  width: 160px;
+  height: 55px;
+  text-align: center;
+  font: 20px/36px '\5FAE\8F6F\96C5\9ED1';
+  border: 1px solid #ec1611;
+  background: #fff;
+  color: #fff;
+}
+main .detailmeta .product_info .submit .buy_now {
+  background: #fff;
+  color: #ec1611;
+}
+main .detailmeta .product_info .submit .addcart {
+  background: #ec1611;
+}
+main .detailmeta .product_info .paneld {
+  width: 100%;
+  float: left;
+  margin-top: 10px;
+}
+main .detailmeta .product_info .paneld span {
+  margin-right: 10px;
+}
+main .detailmeta .product_info .paneld i {
+  margin-right: 4px;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  margin-top: 6px;
+  color: #fff;
+  border-radius: 3px;
+  text-align: center;
+  line-height: 17px;
+  background: #ec1813;
+}
+main .detailmeta .product_info .paneld b {
+  background: url(../image/new_ico8.png) no-repeat -133px -199px;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  position: relative;
+  top: 4px;
+}
+main .detailmeta .aside {
+  float: right;
+  width: 198px;
+  line-height: 20px;
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  height: 480px;
+  position: relative;
+}
+main .detailmeta .aside h4 {
+  line-height: 20px;
+  padding: 19px 15px 0;
+  position: relative;
+}
+main .detailmeta .aside h4 b {
+  border-bottom: 1px dotted #e5e5e5;
+  padding-bottom: 8px;
+  width: 168px;
+  display: inline-block;
+  line-height: 20px;
+  color: #333;
+}
+main .detailmeta .aside ol {
+  padding: 5px 14px;
+}
+main .detailmeta .aside ol li {
+  text-align: left;
+  line-height: 42px;
+  color: #666;
+}
+main .detailmeta .aside ol li i {
+  width: 20px;
+  height: 20px;
+  background: url(../image/new1.png) no-repeat;
+  margin-right: 10px;
+  font: 0/0 "";
+  vertical-align: middle;
+  float: none;
+  display: inline-block;
+  position: relative;
+}
+main .detailmeta .aside ol .leA {
+  background: url(../image/icon_level.png) repeat-x 0 -3px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 24px;
+}
+main .detailmeta .aside ol .A32 {
+  background-position: 0 -48px;
+  width: 48px;
+}
+main .detailmeta .aside ol .ps {
+  vertical-align: middle;
+  position: relative;
+}
+main .detailmeta .aside ol .ps:hover .info {
+  display: block;
+}
+main .detailmeta .aside ol .l1 {
+  background-position: 0 -40px;
+}
+main .detailmeta .aside ol .l2 {
+  background-position: -20px -40px;
+}
+main .detailmeta .aside ol .l3 {
+  background-position: -40px -40px;
+}
+main .detailmeta .aside ol .info {
+  position: absolute;
+  z-index: 30;
+  top: 30px;
+  left: -100px;
+  width: 130px;
+  border: 1px solid #cccccc;
+  box-shadow: 0px 0px 10px 4px #ddd;
+  background-color: #fff;
+  text-align: center;
+  display: none;
+}
+main .detailmeta .aside ol .info sup {
+  top: auto;
+  width: 40px;
+  height: 27px;
+  cursor: pointer;
+  background: url(../image/icon6.png) no-repeat right 20px;
+  display: inline-block;
+  position: absolute;
+  right: 33px;
+  top: -27px;
+  z-index: 2;
+}
+main .detailmeta .aside dl {
+  padding-top: 12px;
+  border-top: 1px dotted #e5e5e5;
+  margin: 0 15px;
+}
+main .detailmeta .aside dl dd {
+  height: 42px;
+  line-height: 42px;
+}
+main .detailmeta .aside dl dd em {
+  color: #ff404c;
+}
+main .detailmeta .aside .rk {
+  text-align: center;
+  margin-top: 20px;
+}
+main .detailmeta .aside .rk label {
+  display: inline-block;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #ff404c;
+  width: 68px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  font-size: 12px;
+  margin: 0 2px;
+  border-radius: 2px;
+}
+main .detailmeta .aside .rk a {
+  color: #ff404c;
+}
+article {
+  overflow: hidden;
+}
+article .left {
+  float: left;
+  width: 182px;
+  margin-bottom: 18px;
+  min-height: 100px;
+}
+article .left .hgroup {
+  background: #fafafa;
+  height: 40px;
+  padding: 1px 0;
+  border-bottom: 1px solid #dfdfdf;
+}
+article .left .hgroup span {
+  padding-left: 12px;
+  float: left;
+  font: 16px/40px "\5FAE\8F6F\96C5\9ED1";
+  color: #333;
+  font-weight: 700;
+}
+article .left li {
+  float: left;
+  width: 182px;
+  margin-top: 18px;
+  position: relative;
+}
+article .left li img {
+  width: 180px;
+  height: 180px;
+  border: 1px solid #f5f5f5;
+  border-bottom: 0;
+  vertical-align: top;
+}
+article .left li .stock {
+  text-align: right;
+  line-height: 24px;
+  position: absolute;
+  top: 157px;
+  left: 0;
+  background: rgba(255, 255, 255, 0.7);
+  _background: #fff;
+  width: 172px;
+  padding: 0 5px;
+  height: 24px;
+}
+article .left li .stock em {
+  float: left;
+  color: #999;
+}
+article .left li .stock span {
+  color: #ec1611;
+  font-size: 14px;
+}
+article .left li .stock span i {
+  font-size: 10px;
+}
+article .left li .stockword {
+  height: 30px;
+  overflow: hidden;
+  text-align: left;
+  line-height: 30px;
+  background: #f5f5f5;
+  width: 172px;
+  padding: 0 5px;
+}
+article .left li .stockword i {
+  color: #666;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+article .right {
+  text-align: left;
+  float: left;
+  position: relative;
+}
+article .right .pro_title {
+  width: 818px;
+  border-bottom: 1px dotted #d4d4d4;
+  z-index: 99;
+  background: #fafafa;
+  position: relative;
+  overflow: hidden;
+}
+article .right .pro_title .nav_text a {
+  height: 40px;
+  line-height: 40px;
+  padding: 0 28px;
+  float: left;
+  text-decoration: none;
+  font-size: 16px;
+  color: #666;
+}
+article .right .pro_title .nav_text .cur {
+  font-weight: 700;
+  border-bottom: 4px solid #ff404c;
+  border-top: 1px solid #fff;
+  height: 38px;
+  background: #fff;
+}
+article .right .pro_info {
+  float: left;
+  width: 800px;
+  overflow: hidden;
+  margin-left: 18px;
+  padding-top: 18px;
+  margin-bottom: 20px;
+}
+article .right .pro_info h2 {
+  height: 24px;
+  text-align: left;
+}
+article .right .pro_info span {
+  line-height: 24px;
+  padding-left: 12px;
+  color: #333;
+  font: 14px/24px arial;
+  font-weight: 700;
+}
+article .right .pro_info span em {
+  padding-right: 9px;
+}
+article .right .pro_info .mao_spcs li {
+  width: 254px;
+  float: left;
+  padding: 0 3px;
+  line-height: 30px;
+  overflow: hidden;
+  color: #666;
+}
+article .right .pro_info .mao_spcs a {
+  color: #666;
+}
+article .right .pro_info ul {
+  width: 790px;
+  padding: 0 0 18px 10px;
+  border-bottom: 1px dotted #e5e5e5;
+  margin-bottom: 18px;
+  overflow: hidden;
+}
+article .right .pro_info ul li {
+  padding: 0px 3px;
+  line-height: 30px;
+  color: #666;
+}
+article .right .pro_info ul li a {
+  color: #666;
+}
+article .right .pro_info ul li img {
+  margin-top: 10px;
+  width: 100%;
+}
+article .right .pro_zixun ol {
+  float: left;
+  width: 800px;
+  overflow: hidden;
+  margin-left: 18px;
+  padding-top: 18px;
+  margin-bottom: 20px;
+}
+article .right .pro_zixun ol li {
+  width: 754px;
+  height: auto;
+  color: #666;
+  font-size: 12px;
+  margin-bottom: 8px;
+  float: left;
+  padding: 0 3px;
+  line-height: 30px;
+  overflow: hidden;
+}
+article .right .pro_zixun ol li p label {
+  width: 12px;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 10px;
+  display: inline-block;
+  text-align: center;
+  line-height: 12px;
+  margin: 9px 6px 0 0;
+  font-family: Arial;
+}
+article .right .pro_zixun ol li .question {
+  font-size: 14px;
+  color: #333;
+  font-weight: 700;
+}
+article .right .pro_zixun ol li .question label {
+  background: #ff6767;
+}
+article .right .pro_zixun ol li .answer span {
+  width: 735px;
+}
+article .right .pro_zixun ol li .answer label {
+  background: #ccc;
+}
+article .right .none {
+  display: none;
+}
+article .right .fix {
+  position: absolute;
+  top: 86px;
+  left: 50%;
+  margin-left: 408px;
+  z-index: 500;
+}
+article .right .fix li {
+  width: 100%;
+  float: left;
+  position: relative;
+  z-index: 2;
+  line-height: 48px;
+}
+article .right .fix li a {
+  color: #666;
+  font-size: 16px;
+}
+article .right .nav {
+  width: 168px;
+  float: right;
+  padding: 10px 0 10px 20px;
+  margin-top: -42px;
+  border: 1px solid #d9d9d9;
+  z-index: 100;
+  background: #fff;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>折800登录</title>
+    <link rel="shortcut icon" href="../image/favicon.ico">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/header-footer.css">
+    <script src="../js/jquery.js"></script>
+    <script src="../js/login.js"></script>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="top_head">
+        <div class="area">
+            <div class="logo">
+                <a href="index1.html">
+                    <span class="logo_img">
+                    </span>
+                </a>
+            </div>
+            <p class="ok_re">还没有账号？<a href="register.html" target="_blank">立即注册</a></p>
+        </div>
+    </div>
+    <!-- 登录 -->
+    <main>
+        <div class="left">
+            <div class="left_bg">
+                <img src="../image/login.jpg" alt="">
+            </div>
+        </div>
+        <!-- 二维码登录 -->
+        <div class="erweima none">
+            <div class="right">
+                <div class="pc">
+                </div>
+                <span class="login_notices">密码登录在这里</span>
+                <p class="scan-t">手机扫码，安全登录</p>
+                <p class="scan-n"><i></i>打开<a href="" target="_blank">折800APP</a>→我的→扫一扫</p>
+                <div class="scan-area">
+                    <div class="scan-init-area">
+                        <img src="../image/erweima.png" alt="">
+                    </div>
+                </div>
+                <p class="scan-r"><span class="pwd-login">密码登录</span><a href="login.html" target="_blank">立即注册</a></p>
+            </div>
+        </div>
+        <!-- 账号密码登录 -->
+        <div class="unamelogin">
+            <div class="right">
+                <div class="pc">
+                </div>
+                <span class="login_notices">扫码登录更安全</span>
+                <p class="scan-t">折800账号登录</p>
+                <form action="../lib/login.php" method="GET">
+                    <div class="user_name"></div>
+                    <div class="user_keywords"></div>
+                    <input placeholder="邮箱/手机号/用户名" id="username" name="username" type="text" class="t">
+                    <input placeholder="请输入密码" class="t" id="pwd" type="password" name="password">
+                    <div class="submit1">
+                        <input type="submit" name="commit" id="login_submit" class="submit" value="">
+                        <a target="_blank" class="forget_num">忘记密码？</a>
+                    </div>
+                    <p class="scan-r">
+                        <span class="pwd-login">密码登录</span>
+                        <a href="login.html" target="_blank">立即注册</a>
+                    </p>
+
+                </form>
+
+            </div>
+        </div>
+        <!-- 其他登录方式 -->
+        <div class="otherlogin">
+            <h4>还可以使用这些账号登录：</h4>
+            <p>
+                <a class="qq" href="#"></a>
+                <a class="weibo" href="#"></a>
+                <a class="zhifubao" href="#"></a>
+                <a class="taobao" href="#"></a>
+            </p>
+        </div>
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <div class="foot-con">
+            <span class="footer-name" style="display: none;">成都团博百众科技有限公司</span>
+            <a rel="nofollow" target="_blank" href="http://www.miibeian.gov.cn/"
+                style="display:inline;color:#999">京ICP证120075号&nbsp;</a>
+            京ICP备10051110号-5&nbsp;
+            <a rel="nofollow" target="_blank"
+                href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502025623"
+                style="display:inline;color:#999">京公网安备11010502025623&nbsp;</a>
+            统一社会信用代码 91110105571298269B&nbsp; 食品流通许可证SP1101051510352397
+            <br>
+            <a target="_blank" href="//status.tuanimg.com/statics/zhe/common/img/cbw.jpg">出版物经营许可证</a>
+            &nbsp;新出发京零字第朝160018号&nbsp;&nbsp;
+            Copyright©2011-2015 版权所有 ZHE800.COM
+            <br>
+            <div>团博百众（北京）科技有限公司、地址：北京市朝阳区裕民路12号1号楼A座201、电话：400-0611-800</div>
+        </div>
+        <div class="foot_center">
+            <a rel="nofollow" class="commitment" href="//www.zhe800.com/cn/list/commitment" target="_blank">
+                <span class="commitment_img"></span>
+            </a>
+            <a rel="nofollow" class="gsrz" href="//status.tuanimg.com/statics/zhe/common/img/gsrz1.jpg" target="_blank"
+                style="float: left;">
+                <span class="gsrz_img"></span>
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>

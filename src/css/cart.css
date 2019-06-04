@@ -1,0 +1,266 @@
+.order_r {
+  background: url(../image/step.png) no-repeat 0 0;
+  float: right;
+  width: 296px;
+  height: 18px;
+  margin-top: 50px;
+}
+.area {
+  width: 1200px;
+  margin: 0 auto;
+}
+.main {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #ec1611;
+  width: 100%;
+  overflow: hidden;
+}
+.main .cart_title {
+  font: 18px/26px "微软雅黑";
+  margin-left: 20px;
+  color: #333;
+  display: inline;
+}
+.main .cart_title b {
+  color: #f20000;
+  margin-left: 4px;
+  font-family: Arial;
+}
+.main .cart_title .right {
+  background: url(../image/new_icon1.png) no-repeat 0 0;
+  float: right;
+  width: 486px;
+  height: 28px;
+}
+section {
+  overflow: hidden;
+}
+section .header {
+  padding: 12px 0;
+  line-height: 20px;
+  position: relative;
+  color: #333;
+  width: 1020px;
+  margin: 0 auto;
+}
+section .header .products {
+  padding: 0;
+  width: 444px;
+  text-align: center;
+}
+section .header .price {
+  width: 170px;
+  padding-left: 16px;
+  text-align: left;
+}
+section .header .number {
+  width: 50px;
+}
+section .header .money {
+  text-indent: 30px;
+  width: 155px;
+}
+section .header .operation {
+  width: 72px;
+  text-align: left;
+}
+section .header span {
+  display: inline-block;
+}
+section .header span i {
+  margin-left: 10px;
+}
+section .header span input {
+  position: absolute;
+  top: 16px;
+  left: 20px;
+  padding-left: 16px;
+}
+section .item {
+  width: 1020px;
+  padding-bottom: 30px;
+  position: relative;
+  margin: 0 auto;
+}
+section .item .cart_table {
+  overflow: hidden;
+  border: 1px solid #f2f2f2;
+}
+section .item .cart_table tr {
+  overflow: hidden;
+  background: #fafafa;
+}
+section .item .cart_table tr td {
+  overflow: hidden;
+  padding: 15px 5px;
+  border-collapse: collapse;
+  vertical-align: top;
+}
+section .item .cart_table tr td img {
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+  float: left;
+  margin-top: 4px;
+  border: 1px solid #fefefe;
+}
+section .item .cart_table tr input {
+  margin-left: 40px;
+  border-collapse: collapse;
+  vertical-align: top;
+}
+section .item .cart_table tr .products {
+  width: 444px;
+  text-align: left;
+}
+section .item .cart_table tr .products h3 {
+  width: 135px;
+  float: left;
+  margin-right: 35px;
+  overflow: hidden;
+  word-wrap: break-word;
+  word-break: break-all;
+  font-size: 12px;
+}
+section .item .cart_table tr .products h3 i {
+  color: #666;
+  max-height: 60px;
+  overflow: hidden;
+  display: block;
+}
+section .item .cart_table tr .products div {
+  height: 80px;
+  float: left;
+  width: 145px;
+  padding: 0 20px 0 5px;
+  border: 1px dashed #fff;
+  color: #999;
+}
+section .item .cart_table tr .price {
+  width: 142px;
+  padding-left: 2px;
+  vertical-align: top;
+  text-align: left;
+  line-height: 16px;
+}
+section .item .cart_table tr .price p {
+  padding-left: 10px;
+}
+section .item .cart_table tr .price p del {
+  color: #999;
+}
+section .item .cart_table tr .number p {
+  background: #fff;
+  border: 1px solid #ccc;
+  float: left;
+  line-height: 16px;
+}
+section .item .cart_table tr .number i {
+  cursor: pointer;
+  float: left;
+  line-height: 222px;
+  height: 20px;
+  text-align: center;
+  width: 22px;
+  overflow: hidden;
+  background: url(../image/icon1.png) no-repeat;
+}
+section .item .cart_table tr .number input {
+  background: #fcfcfc;
+  border-color: #eee;
+  border-style: solid;
+  border-width: 0 1px;
+  float: left;
+  height: 16px;
+  padding: 2px 5px;
+  text-align: center;
+  width: 25px;
+  color: #666;
+  margin-left: 0px;
+}
+section .item .cart_table tr .number .no-drop {
+  background-position: 0 -20px;
+}
+section .item .cart_table tr .money {
+  color: #ff0600;
+  text-align: center;
+  width: 80px;
+  font-weight: 700;
+  padding-left: 10px;
+  padding-right: 30px;
+  font-size: 14px;
+}
+section .item .cart_table tr .operation {
+  width: 74px;
+  text-align: left;
+}
+section .item .cart_table tr .operation span {
+  cursor: pointer;
+  display: block;
+  margin-left: 10px;
+}
+section .submit {
+  width: 1020px;
+  padding-bottom: 30px;
+  position: relative;
+  margin: 0 auto;
+}
+section .submit .fixbox {
+  border: 1px solid #f3f3f3;
+  background: #fff;
+  line-height: 44px;
+  height: 44px;
+  width: 978px;
+}
+section .submit .fixbox input {
+  margin-left: 16px;
+}
+section .submit .fixbox > span {
+  text-align: left;
+  width: 100px;
+  position: absolute;
+  left: 40px;
+  top: 0;
+}
+section .submit .fixbox > span .del {
+  margin-left: 20px;
+}
+section .submit .fixbox .right {
+  float: right;
+  width: 800px;
+  text-align: right;
+  line-height: 44px;
+}
+section .submit .fixbox .right > i {
+  background: #ddd;
+  color: #999;
+  cursor: default;
+  border-right-color: #ddd;
+}
+section .submit .fixbox .right b {
+  color: #ec1611;
+  margin: 0 2px;
+  font: 16px/30px arial;
+}
+section .submit .fixbox .right strong {
+  color: #ec1611;
+  font: 700 20px/30px "\5FAE\8F6F\96C5\9ED1";
+  vertical-align: -2px;
+}
+section .submit .fixbox .right .accounts {
+  background: #ddd;
+  color: #999;
+  cursor: default;
+  border-right-color: #ddd;
+  height: 47px;
+  width: 150px;
+  display: inline-block;
+  font: 18px/56px "微软雅黑";
+  text-decoration: none;
+  text-align: center;
+  margin: -18px -1px -15px 0;
+  position: relative;
+  vertical-align: middle;
+  line-height: 47px;
+}

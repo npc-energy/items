@@ -1,0 +1,285 @@
+.top_head {
+  width: 100%;
+  background: #fff;
+  height: 100px;
+  position: relative;
+}
+.top_head .area {
+  width: 980px;
+  margin: 0 auto;
+}
+.top_head .logo {
+  width: 255px;
+  height: 100px;
+  float: left;
+}
+.top_head .logo .logo_img {
+  position: absolute;
+  display: block;
+  width: 255px;
+  height: 100px;
+  background: url(../image/logo_zhe800_new.png) center center no-repeat;
+}
+.top_head .ok_re {
+  float: right;
+  margin-top: 40px;
+}
+main {
+  clear: both;
+  margin: 10px auto;
+  width: 980px;
+  overflow: hidden;
+  height: 550px;
+  background-color: #fff;
+  position: relative;
+}
+main .left {
+  float: left;
+}
+main .left .left_bg {
+  width: 460px;
+  height: 330px;
+  margin-top: 60px;
+  margin-left: 90px;
+}
+main .erweima {
+  overflow: hidden;
+}
+main .erweima .right {
+  width: 338px;
+  float: right;
+  height: 340px;
+  text-align: left;
+  margin-right: 90px;
+  position: relative;
+  border: 1px solid #e5e5e5;
+}
+main .erweima .right .pc {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: inline-block;
+  height: 52px;
+  width: 52px;
+  background: url(../image/login1.png);
+  z-index: 20002;
+  cursor: pointer;
+}
+main .erweima .right .login_notices {
+  color: #e60044;
+  display: inline-block;
+  z-index: 20006;
+  position: absolute;
+  right: 42px;
+  top: 8px;
+  text-align: center;
+  width: 101px;
+  height: 20px;
+  line-height: 20px;
+  background: url(../image/login2.png) center no-repeat;
+}
+main .erweima .right .scan-t {
+  font-size: 20px;
+  color: #333;
+  line-height: 30px;
+  margin-top: 35px;
+  margin-left: 20px;
+  text-align: left;
+}
+main .erweima .right .scan-n {
+  font-size: 14px;
+  color: #333;
+  line-height: 20px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: "PingFang SC Medium", "microsoft yahei";
+}
+main .erweima .right .scan-n i {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  position: relative;
+  top: 4px;
+  margin-right: 9px;
+  background: url(../image/login4.png) center no-repeat;
+}
+main .erweima .right .scan-n a {
+  color: #e60044;
+}
+main .erweima .right .scan-area {
+  height: 140px;
+  width: 140px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 28px;
+  border: 1px solid #e5e5e5;
+  position: relative;
+}
+main .erweima .right .scan-area .scan-init-area {
+  padding: 10px 0;
+}
+main .erweima .right .scan-r {
+  font-family: "PingFang SC Medium", "microsoft yahei";
+  color: #333;
+  font-size: 14px;
+  margin-top: 14px;
+  line-height: 30px;
+  text-align: right;
+  margin-right: 20px;
+}
+main .erweima .right .scan-r .pwd-login {
+  margin-right: 20px;
+}
+main .erweima .right .scan-r a {
+  color: #333;
+}
+main .unamelogin {
+  overflow: hidden;
+}
+main .unamelogin .right {
+  width: 338px;
+  float: right;
+  height: 340px;
+  text-align: left;
+  margin-right: 90px;
+  position: relative;
+  border: 1px solid #e5e5e5;
+}
+main .unamelogin .right .pc {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: inline-block;
+  height: 52px;
+  width: 52px;
+  background: url(../image/uname.png) no-repeat;
+  z-index: 20002;
+  cursor: pointer;
+}
+main .unamelogin .right .login_notices {
+  color: #e60044;
+  display: inline-block;
+  z-index: 20006;
+  position: absolute;
+  right: 42px;
+  top: 8px;
+  text-align: center;
+  width: 101px;
+  height: 20px;
+  line-height: 20px;
+  background: url(../image/login2.png) center no-repeat;
+}
+main .unamelogin .right .scan-t {
+  font-size: 20px;
+  color: #333;
+  line-height: 30px;
+  margin-top: 35px;
+  margin-left: 20px;
+  text-align: left;
+}
+main .unamelogin .right .scan-r {
+  font-family: "PingFang SC Medium", "microsoft yahei";
+  color: #333;
+  font-size: 14px;
+  margin-top: 14px;
+  line-height: 30px;
+  text-align: right;
+  margin-right: 20px;
+}
+main .unamelogin .right .scan-r .pwd-login {
+  margin-right: 20px;
+}
+main .unamelogin .right .scan-r a {
+  color: #333;
+}
+main .unamelogin .right form {
+  position: relative;
+  width: 258px;
+  margin-left: 20px;
+}
+main .unamelogin .right .user_name {
+  background: url(../image/login_user.png) no-repeat 0 0;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 30px;
+  left: 15px;
+}
+main .unamelogin .right .user_keywords {
+  background: url(../image/login_user.png) no-repeat -17px 0;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 90px;
+  left: 15px;
+}
+main .unamelogin .right .t {
+  color: #999;
+  width: 183px;
+  border: 1px solid #c4c4c4;
+  vertical-align: middle;
+  height: 18px;
+  padding: 10px;
+  padding-left: 45px;
+  line-height: 18px;
+  margin: 15px 0 5px;
+}
+main .unamelogin .right .submit {
+  display: inline-block;
+  width: 122px;
+  height: 42px;
+  background: url(../image/login_signin.png) no-repeat 0 0;
+  border: 0;
+  cursor: pointer;
+  margin-right: 25px;
+  text-decoration: none;
+  vertical-align: middle;
+}
+main .unamelogin .right .submit1 {
+  padding: 20px 0px;
+}
+main .otherlogin {
+  z-index: 20001;
+  background: #FFF;
+  width: 300px;
+  position: absolute;
+  right: 126px;
+  margin-top: 10px;
+  padding-left: 20px;
+  display: inline-block;
+}
+main .otherlogin h4 {
+  text-align: left;
+  padding-top: 10px;
+  line-height: 20px;
+}
+main .otherlogin p {
+  padding-top: 15px;
+  height: 40px;
+}
+main .otherlogin a {
+  color: #666;
+  float: left;
+  display: inline-block;
+  background: url(../image/otherlogin.png) no-repeat;
+  width: 55px;
+  height: 50px;
+  margin-right: 20px;
+  text-indent: -900px;
+  overflow: hidden;
+}
+main .otherlogin .qq {
+  background-position: 0px -30px;
+}
+main .otherlogin .weibo {
+  background-position: -71px -30px;
+}
+main .otherlogin .zhifubao {
+  background-position: -141px -32px;
+}
+main .otherlogin .taobao {
+  background-position: -221px -32px;
+}
+main .none {
+  display: none;
+}
